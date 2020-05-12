@@ -1,0 +1,14 @@
+<div class="col s6">
+	{{#each burgers}}
+	{{#unless this.devoured}}
+	<div>
+		<form action="/burgers/{{this.id}}?_method=PUT" method="POST">
+			<button type="submit" class="devour-burger button-add-burger" data-id="{{id}}"
+				data-newDevour="{{devour}}">{{this.burger_name}}
+			</button>
+		</form>
+	</div>
+	{{/unless}}
+	{{/each}}
+</div>
+

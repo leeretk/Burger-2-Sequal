@@ -1,0 +1,80 @@
+li {
+  padding: 5px;
+  margin: 5px;
+  background: #faebd7;
+}
+.label {
+  font-weight: bolder;
+  font-size: 14px;
+}
+.create-update-form {
+  padding: 5px;
+  margin: 5px;
+  background: aqua;
+}
+.form-group {
+  margin-bottom: 5px;
+}
+.wrapper {
+  margin: 0 auto;
+  padding: 50px;
+  width: 1500px;
+  background-color: maroon;
+}
+img {
+  width: 150px;
+  height: 200px;
+  padding: 10px;
+}
+iframe {
+  height: 350px;
+  padding: 20px;
+  border: maroon;
+  background-color: maroon;
+}
+.cardBodyMiddle {
+  background-color: lightgray;
+}
+h3 {
+  font-size: 40px;
+  color: maroon;
+}
+button {
+  margin-top: 10px;
+  padding: 10px;
+  background-color: maroon;
+  color: white;
+}
+.button-add-burger {
+  margin-top: 10px;
+  padding: 10px;
+  background-color: maroon;
+  color: white;
+  width: 100%;
+}
+.button-delete-burger {
+  margin-top: 10px;
+  padding: 10px;
+  background-color: maroon;
+  color: white;
+  width: 100%;
+}
+.card-deck {
+  background-color: maroon;
+  border-radius: 0;
+  padding-bottom: 40px;
+}
+.card-footer {
+  color: maroon;
+}
+input {
+  width: 100%;
+  padding: 10px;
+}
+.card {
+  border-radius: 0%;
+  border: maroon;
+}
+ul li {
+  list-style: none;
+}
